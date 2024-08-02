@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa6";
 
 function Contact() {
   return (
-    <div className={styles.contact_wrapper}>
+    <div className={styles.contact_wrapper} id="contact">
       <div className={styles.contact_con}>
         <div className={styles.contact_info}>
           <h3 className={styles.contact_title}>Contact</h3>

@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 function About() {
   return (
-    <div className={styles.about_con}>
+    <div className={styles.about_con} id="about">
       <div className={styles.about_list}>
         <div className={styles.about_item}>
           <h4 className={styles.about_title}>About Me</h4>

@@ -5,7 +5,7 @@ import paper from "/src/components/PDF/Paper.pdf";
 
 function Project() {
   return (
-    <div className={styles.project_con}>
+    <div className={styles.project_con} id="project">
       <h4 className={styles.project_title}>My Project</h4>
       <h4 className={styles.project_text}>
         Real-time Temperature and Water Level Warning System for Yarn Extrusion

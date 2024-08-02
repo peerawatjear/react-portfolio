@@ -1,7 +1,8 @@
 nav {
+  position: fixed;
   overflow: hidden;
-  position: relative;
-  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 30px;
   top: 0;
   left: 0;
   right: 0;
@@ -13,9 +14,11 @@ nav {
 
   .bar {
     position: absolute;
-    top: 35px;
-    right: 20px;
+    top: 25px;
+    right: 25px;
     color: #fff;
+    width: 30px;
+    height: 30px;
   }
 
   & .container {
@@ -31,7 +34,7 @@ nav {
 
     & .logo {
       & a {
-        font-size: 24px;
+        font-size: 28px;
         text-decoration: none;
         font-weight: bold;
       }
@@ -45,6 +48,7 @@ nav {
         margin: 0 35px;
 
         & a {
+          font-size: 20px;
           text-decoration: none;
         }
       }
@@ -75,15 +79,14 @@ nav {
 
 @media screen and (max-width: 720px) {
   nav {
-    position: fixed;
-    background-color: rgb(4, 21, 45, 0.9);
-    margin-top: 0;
+    background-color: rgba(4, 21, 45, 0.9) !important;
+    padding-top: 0 !important;
   }
 
   .nav_con {
     flex-direction: column;
     height: auto !important;
-    margin: 30px 0;
+    margin: 25px 0;
     align-items: start !important;
     margin-left: 30px;
 
@@ -131,7 +134,7 @@ nav {
 
 @media screen and (min-width: 721px) {
   nav {
-    margin-left: 35px;
+    padding-left: 35px;
   }
   
   .mobile_menu,
