@@ -24,12 +24,7 @@ function Hero() {
               />
             </p>
             <p className={styles.text_4}>
-              As a recent graduate, I am committed to developing my professional
-              <br />
-              skills in my field of study, applying my knowledge to advance the
-              <br />
-              organization, and gaining work experience to grow alongside the
-              organization.
+            I have recently graduated with a degree in Electronics and Computer Systems Engineering from Silpakorn University. I am determined to develop my professional skills in this field and to use my knowledge and skills to contribute to the growth of the organization while continuously learning and developing myself.
             </p>
             <ul className={styles.hero_social}>
               <li>
